@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Diagnostico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="label">Login Personal</h1>
+        <form class="login_form" method="post" name="form"  >
+            <div class="font">Usuario</div>
+            <input type="text" name="usuario" id="usuarios">
+            <div id="usuario_error">Escriba algun usuario existente</div>
+            <div class="font font2">Contraseña</div>
+            <input type="password" name="contraseña" id="contraseñas">
+            <div id="contra_error">Escriba alguna contraseña valida</div>
+            <button type="button" onclick="pagina()">Ingreso</button>
+        </form>
+    </div>
+    <script src="validacion.js"></script>
+</body>
+</html>
